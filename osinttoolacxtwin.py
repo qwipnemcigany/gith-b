@@ -84,7 +84,6 @@ def parse_args():
     parser.add_argument('--flood', action='store_true', help='Perform HTTP flood')
     parser.add_argument('--duration', type=int, default=60, help='Flood duration in seconds (default=60)')
     parser.add_argument('--threads', type=int, default=50, help='Number of threads for flood (default=50)')
-    parser.add_argument('Usage', type=int, default=50, help='python3 osinttoolacxtwin.py --scan --target <ip,address,email')
     return parser.parse_args()
 
 def main():
